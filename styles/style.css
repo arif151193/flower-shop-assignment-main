@@ -1,4 +1,98 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+.first-look-container {
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.intro-text{
+    
+    padding-top: 230px;
+    padding-left: 100px;
+
+}
+.title-design {
+    color: #272727;
+    /* font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    width: 708px;
+    height: 288px;
+    padding: 197px 972px 365px 240px; */
+}
+
+.title-info-design {
+    /* width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal; */
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #E55473;
+    border-radius: 8px;
+    color: white;
+    border: 0px;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.title-img{
+    padding-right: 130px;
+}
+.feature-text{
+    text-align: center;
+}
+.feature-flowers{
+    display: flex;
+    justify-content: space-between;
+}
+.flower1{
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px;
+}
+.flower2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.underline-text{
+text-decoration: underline;
+text-align: center;
+}
+.unique-service{
+    background-color: #2727270D;
+    display: flex;
+    gap: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+    align-content: center;
+    padding: 35px 50px 35px 50px;
+}
+.hot-deal-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    background: #E554730D;
+    margin-top: 50px;
+}
+span{
+    color: #E55473;
+}
+.insta-text{
+    text-align: center;
 }
