@@ -18,22 +18,17 @@
 }
 .title-design {
     color: #272727;
+    font-size: 50px;
+    font-weight: 500;
     /* font-family: Lato;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 800;
+    
     width: 708px;
     height: 288px;
     padding: 197px 972px 365px 240px; */
 }
 
-.title-info-design {
-    /* width: 634px;
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal; */
-    font-weight: 400;
+.title-info-design{
+    color:#27272799;
 }
 
 .btn {
@@ -48,27 +43,36 @@
 }
 .title-img{
     padding-right: 130px;
+    height: auto;
+    width: 400px;
 }
 .feature-text{
     text-align: center;
 }
 .feature-flowers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .flower1{
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
-width: 464px;
-height: 538px;
+width: 250px;
+height: 300px;
+padding: 50px 25px 0px;
 }
 .flower2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    width: 250px;
+    height: 300px;
+    padding: 20px 25px 15px;
 }
 .flower3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    width: 250px;
+    height: 300px;
+    padding: 50px 25px 0px;
 }
 .underline-text{
 text-decoration: underline;
@@ -93,8 +97,20 @@ text-align: center;
 span{
     color: #E55473;
 }
+.instagram-container{
+    background-color: white;
+    background-size: 100vh;
+    background: fixed;
+}
 .insta-text{
     text-align: center;
+}
+.insta-pic{
+    margin: 20px ;
+    gap: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
 }
 .occasion-container{
     padding: 15px;
@@ -116,12 +132,17 @@ span{
     text-align: center;
 }
 .occasion-btn{
-    background-color: rgb(63, 235, 63);
+    background-color: #4CAF50;
     color: #272727;
     border: none;
     border-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 15px 32px;
+    box-shadow: rgb(244, 244, 247);
+}
+.occasion-btn:hover{
+    background-color:#08f5e1;
+    transition: 0.7s;
 }
 .subscribe-container{
     background-image: url("../images/Rectangle\ 9.png");
