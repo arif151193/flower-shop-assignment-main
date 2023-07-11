@@ -180,6 +180,7 @@ span{
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 25px;
 }
 footer{
     background-color: #272727;
@@ -188,14 +189,18 @@ footer{
     color: white;
     padding: 50px 100px 50px 100px;
 }
-.email-input{
-    width: 150px;
-    max-width: 150px;
-}
 .footer-last{
-    color:#FFFFFF66
+    color:#FFFFFF;
 }
-
+input[type=email] {
+    padding: 0px 180px 0px;
+    border: 0px;
+    margin-top: 22px;
+    text-align: left;
+}
+.footer-text{
+margin: 20px 20px;
+}
 
 
 
