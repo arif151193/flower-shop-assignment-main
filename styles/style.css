@@ -2,39 +2,30 @@
     margin: 0px;
     padding: 0px;
 }
-
-.first-look-container {
+/* first-look-container css code starts here */
+.first-look-container{
     background-color: #E554731A;
     display: flex;
     justify-content: space-between;
-     
 }
 .intro-text{
     padding-top: 120px;
     padding-left: 150px;
     padding-bottom: 100px;
     text-align: left;
-
 }
-.title-design {
+.title-design{
     color: #272727;
     font-size: 70px;
     font-weight: 500;
     font-weight: bolder;
-    /* font-family: Lato;
-    
-    width: 708px;
-    height: 288px;
-    padding: 197px 972px 365px 240px; */
 }
-
 .title-info-design{
     color:#27272799;
     padding: 25px;
     padding-left: 0px;
 }
-
-.btn {
+.btn{
     background-color: #E55473;
     border-radius: 8px;
     color: white;
@@ -50,6 +41,7 @@
     height: auto;
     width: 400px;
 }
+/* feature-container css code starts here */
 .feature-container{
     margin: 80px 50px 80px;
 }
@@ -65,6 +57,7 @@
     gap: 15px;
     margin-left: 200px;
     margin-right: 200px;
+    padding-right: 15px;
 }
 .flower1{
 border-radius: 300px 300px 0px 0px;
@@ -95,10 +88,13 @@ text-align: center;
     background-color: #2727270D;
     display: flex;
     gap: 50px;
-    margin: 50px 240px 50px 240px;
+    margin: 50px 120px 50px 200px;
     align-content: center;
-    padding: 35px 50px 35px 50px;
+    padding: 35px 70px 35px 70px;
+    justify-content: space-around;
+    text-align: center;
 }
+/* hot-deal-container css code starts here */ 
 .hot-deal-container{
     display: flex;
     justify-content: space-around;
@@ -115,6 +111,7 @@ span{
 .intro-flower{
     padding-top: 40px;
 }
+/* instagram-container css code starts here */
 .instagram-container{
     background-color: white;
     margin: 80px 80px;
@@ -128,12 +125,15 @@ span{
     padding-left: 30px;
     display: flex;
 }
+/* occasion-container css code starts here.This is added by myself for bonus marks as per instruction */
 .occasion-container{
     padding: 15px;
     margin-bottom: 80px;
-    /* background-image: url("../images/pretty.jpg"); */
-    background-color: rgb(104, 117, 111);
-   
+    background-image: url("../images/gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0px;
+    /* background-color: rgb(104, 117, 111); */
 }
 .occasion1{
     display: flex;
@@ -165,6 +165,7 @@ span{
     background-color:#08f5e1;
     transition: 0.7s;
 }
+/* subscribe-container css code starts here */
 .subscribe-container{
     background-image: url("../images/Rectangle\ 9.png");
     background-size: contain;
@@ -182,6 +183,10 @@ span{
     justify-content: center;
     margin-top: 25px;
 }
+.coupon-text{
+    margin-top: 10px;
+}
+/* footer-container css code starts here */
 footer{
     background-color: #272727;
     background-size: 500px;
